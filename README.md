@@ -32,12 +32,19 @@ At any point you want the program to stop, use Ctrl+C.
 Environment variable	Description
   
 AUTO_ADD_TO_CART	Enable auto add to cart on support stores, default: true
+ 
 BROWSER_TRUSTED	Skip Chromium Sandbox. Useful for containerized environments, default: false
+ 
 HEADLESS	Puppeteer to run headless or not. Debugging related, default: true
+ 
 INCOGNITO	Puppeteer to run incognito or not. Debugging related, default: false
+ 
 IN_STOCK_WAIT_TIME	Time to wait between requests to the same link if it has that card in stock. In seconds, default: 0
+ 
 LOG_LEVEL	Logging levels. Debugging related, default: info
+ 
 LOW_BANDWIDTH	Blocks images/fonts to reduce traffic. Disables ad blocker, default: false
+ 
 OPEN_BROWSER	Toggle for whether or not the browser should open when item is found. Default: true
 PAGE_BACKOFF_MIN	Minimum backoff time between retrying requests for the same store when a forbidden response is received. Default: 10000
 PAGE_BACKOFF_MAX	Maximum backoff time between retrying requests for the same store when a forbidden response is received. Default: 3600000
