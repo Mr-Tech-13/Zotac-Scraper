@@ -1,7 +1,4 @@
-# Zotac Queue Alert
- Zotacstore scraper WORKING November 2021
- 
- 
+# Zotac-Queue-Alert
 Tracks zotacstore and will alert you when there is a queue
 
 **Description**
@@ -12,7 +9,7 @@ This uses code from streetmerchant (https://github.com/jef/streetmerchant), and 
 
 1. Download Node.js
 2. Clone this project git clone https://github.com/Mr-Tech-13/Zotac-Queue-Alert.git
- To checkout a particular reference, use git checkout <ref name> after cloning.
+2a. To checkout a particular reference, use git checkout <ref name> after cloning.
 4. Navigate to this project by entering cd streetmerchant.
 5. Run npm install.
 6. Make a copy of dotenv-example and name it dotenv.
@@ -79,7 +76,6 @@ If you're on Windows, you must have the proper library to run.
 Discord¶
 
 Environment variable	Description
- 
 DISCORD_NOTIFY_GROUP	Discord group you would like to notify
 DISCORD_NOTIFY_GROUP_3060	Discord group to notify on 3060 stock
 DISCORD_NOTIFY_GROUP_3060TI	Discord group to notify on 3060 Ti stock
