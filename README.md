@@ -1,5 +1,10 @@
 # Zotac-Queue-Alert
+
 Tracks zotacstore and will alert you when there is a queue
+
+**Project Status**
+
+Discontimued, due to zotac rarely doing queues. If there are queues again, i will go back into development mode :)
 
 **Description**
 
